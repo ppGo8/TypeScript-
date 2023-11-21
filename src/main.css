@@ -1,0 +1,92 @@
+body {
+  height: 2000px;
+  background-color: pink;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+img {
+  display: block;
+}
+.claerfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#list {
+  width: 1226px;
+  margin: 20px auto;
+}
+#list .list-warp {
+  width: 1240px;
+}
+#list .list-warp li {
+  float: left;
+  width: 296px;
+  height: auto;
+  margin-right: 14px;
+  background: white;
+  cursor: pointer;
+}
+#list .list-warp div {
+  position: relative;
+}
+#list .list-warp img {
+  width: 100%;
+  height: 100%;
+}
+/* 设置iconfont的位置 */
+#list .list-warp span {
+  position: absolute;
+  bottom: 10px;
+  left: 19px;
+  text-align: center;
+  line-height: 32px;
+}
+#list .list-warp li:hover span{
+  background: #ff6700;
+}
+#list .list-warp h3 {
+  font-size: 12px;
+  text-align: center;
+  padding: 30px 0;
+}
+@font-face {
+  font-family: "iconfont"; /* Project id 4338876 */
+  src: url('./iconfont/iconfont.woff2?t=1700491342050') format('woff2'),
+       url('./iconfont/iconfont.woff?t=1700491342050') format('woff'),
+       url('./iconfont/iconfont.ttf?t=1700491342050') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bofang:before {
+  content: "\e87c";
+}
+
+.icon-guanbi:before {
+  content: "\eaf2";
+}
+
+.icon-quanping_o:before {
+  content: "\eb99";
+}
+
+.icon-shengyinkai:before {
+  content: "\eca6";
+}
+
+.icon-24gf-pause2:before {
+  content: "\ea81";
+}
+
